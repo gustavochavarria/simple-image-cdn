@@ -9,15 +9,21 @@ const defaultOptions = {
 /**
  *
  * @param {String} url
- * @param {String} params
+ * @param {Object} options
  */
 const getThumbnail = (url, options = {}) => {
-  //prevent encode an encoded url
-  const urlEncoded = window.encodeURIComponent(window.decodeURIComponent(url));
+  try {
+    //prevent encode an encoded url
+    const urlEncoded = window.encodeURIComponent(
+      window.decodeURIComponent(url)
+    );
 
-  const params = getParams(options);
+    const params = getParams(options);
 
-  return `${FALLBACK}${urlEncoded}${params}`;
+    return `${THUMBNAIL_URL}${urlEncoded}${params}`;
+  } catch {
+    return null;
+  }
 };
 
 const getParams = (options) => {
@@ -27,6 +33,8 @@ const getParams = (options) => {
     params = params + `&${el[0]}=${el[1]}`;
     console.log({ params });
   });
+
+  return params;
 };
 
 export { getThumbnail as default };

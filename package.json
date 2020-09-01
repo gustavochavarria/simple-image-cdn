@@ -1,0 +1,10 @@
+{
+  "name": "simple-image-cdn",
+  "version": "0.0.1",
+  "description": "Simple and free image CDN",
+  "main": "index.js",
+  "repository": "git@github.com:gustavochavarria/simple-image-cdn.git",
+  "author": "GustavoChavarria <gchava92@gmail.com>",
+  "license": "MIT",
+  "private": false
+}

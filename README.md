@@ -39,20 +39,27 @@ console.log(src)
     <td>Width</td>
     <td>w</td>
     <td>640px</td>
-    <td>Set width of the image ``option = {w : '1080px'} ``</td>
+    <td>Set width of the image ```option = {w : '1080px'} ```</td>
 </tr>
 
 <tr>
     <td>Height</td>
     <td>h</td>
     <td>640px</td>
-    <td>Set height of the image ``option = {h: '1080px'}``</td>
+    <td>Set height of the image ```option = {h: '1080px'}```</td>
 </tr>
 
 <tr>
     <td>Fit</td>
     <td>fit</td>
     <td>cover</td>
-    <td>Set height of the image ``option = {fit: 'cover'}``</td>
+    <td>Set height of the image ```option = {fit: 'cover'}```</td>
 </tr>
 </table>
+
+
+### Special Thanks
+
+We use *Images.weserv.nl*, a cool and free service.
+Checkout here: https://images.weserv.nl/
+
