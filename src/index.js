@@ -7,11 +7,12 @@ const defaultOptions = {
 };
 
 /**
+ * Get URL
  *
  * @param {String} url
  * @param {Object} options
  */
-const getThumbnail = (url, options = {}) => {
+const getUrl = (url, options = {}) => {
   try {
     //prevent encode an encoded url
     const urlEncoded = window.encodeURIComponent(
@@ -26,6 +27,10 @@ const getThumbnail = (url, options = {}) => {
   }
 };
 
+/**
+ *
+ * @param {Object} options
+ */
 const getParams = (options) => {
   let params = "";
 
@@ -36,4 +41,4 @@ const getParams = (options) => {
   return params;
 };
 
-export { getThumbnail as default };
+export { getUrl as default };
