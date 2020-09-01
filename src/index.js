@@ -1,8 +1,8 @@
 const THUMBNAIL_URL = `https://images.weserv.nl/?url=`;
 
 const defaultOptions = {
-  w: "640px",
-  h: "640px",
+  w: 640,
+  h: 640,
   fit: "cover",
 };
 

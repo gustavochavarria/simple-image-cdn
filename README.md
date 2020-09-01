@@ -3,6 +3,12 @@
 simple and free image CDN
 
 
+## Install
+
+``` yarn add simple-image-cdn ```
+
+
+``` npm i simple-image-cdn ```
 
 ## Usage
 
@@ -37,22 +43,22 @@ console.log(src)
 <tr>
     <td>Width</td>
     <td>w</td>
-    <td>640px</td>
-    <td>Set width of the image ```option = {w : '1080px'} ```</td>
+    <td>640</td>
+    <td>Set width of the image (in pixels) ``option = {w : '1080'} ``</td>
 </tr>
 
 <tr>
     <td>Height</td>
     <td>h</td>
-    <td>640px</td>
-    <td>Set height of the image ```option = {h: '1080px'}```</td>
+    <td>640</td>
+    <td>Set height of the image (in pixels) ``option = {h: '1080'}``</td>
 </tr>
 
 <tr>
     <td>Fit</td>
     <td>fit</td>
     <td>cover</td>
-    <td>Set height of the image ```option = {fit: 'cover'}```</td>
+    <td>Set height of the image ``option = {fit: 'cover'}``</td>
 </tr>
 </table>
 
