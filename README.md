@@ -20,7 +20,7 @@ import getImageUrl from 'simple-image-cdn';
 
 ```
 const url = 'https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg';
-const src = getImageUrl(url, {w: '100px', h: '100px', fit: 'cover' });
+const src = getImageUrl(url, {w: '100', h: '100', fit: 'cover' });
 
 console.log(src)
 

@@ -1,6 +1,6 @@
 {
   "name": "simple-image-cdn",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Simple and free image CDN",
   "repository": "git@github.com:gustavochavarria/simple-image-cdn.git",
   "author": "GustavoChavarria <gchava92@gmail.com>",
