@@ -31,7 +31,6 @@ const getParams = (options) => {
 
   Object.entries({ ...defaultOptions, ...options }).forEach((el) => {
     params = params + `&${el[0]}=${el[1]}`;
-    console.log({ params });
   });
 
   return params;
