@@ -26,7 +26,6 @@ console.log(src)
 
 ### Options
 
-
 <table>
 <tr>
     <td>name</td>
