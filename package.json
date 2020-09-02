@@ -1,6 +1,6 @@
 {
   "name": "simple-image-cdn",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple and free image CDN",
   "repository": "git@github.com:gustavochavarria/simple-image-cdn.git",
   "author": "GustavoChavarria <gchava92@gmail.com>",
@@ -12,7 +12,8 @@
     "Image cache",
     "Image resize",
     "CDN caching",
-    "Image processing"
+    "Image processing",
+    "Image blur"
   ],
   "source": "src/index.js",
   "main": "dist/index.js",

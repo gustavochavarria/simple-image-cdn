@@ -1,11 +1,5 @@
 const THUMBNAIL_URL = `https://images.weserv.nl/?url=`;
 
-const defaultOptions = {
-  w: 640,
-  h: 640,
-  fit: "cover",
-};
-
 /**
  * Get URL
  *
@@ -23,7 +17,7 @@ const getUrl = (url, options = {}) => {
 
     return `${THUMBNAIL_URL}${urlEncoded}${params}`;
   } catch {
-    return null;
+    return;
   }
 };
 
@@ -34,11 +28,11 @@ const getUrl = (url, options = {}) => {
 const getParams = (options) => {
   let params = "";
 
-  Object.entries({ ...defaultOptions, ...options }).forEach((el) => {
+  Object.entries({ ...options }).forEach((el) => {
     params = params + `&${el[0]}=${el[1]}`;
   });
 
-  return params;
+  return params || "";
 };
 
 export { getUrl as default };
